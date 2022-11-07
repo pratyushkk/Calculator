@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+body {
+  background-color: #dae5d4;
+  font-family: poppins;
+}
+.container {
+  max-width: 400px;
+  margin: 15vh auto 0 auto;
+  box-shadow: 0px 0px 43px 2px rgb(159, 159, 159);
+  border-radius: 10px;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  color: #8aae79;
+}
+
+.buttons {
+  color: azure;
+  border-radius: 10px;
+  background-color: #a4b79b;
+  display: grid;
+  border-bottom: 1px solid #a4b79b;
+  border-left: 1px solid #a4b79b;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+  border-top: 1px solid #a4b79b;
+  border-right: 1px solid #a4b79b;
+}
+
+.button {
+  border-radius: 10px;
+  border: 0.5px solid #a4b79b;
+  line-height: 80px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#clear {
+  background-color: #d75f58;
+  border-radius: 10px;
+}
+#clear:hover {
+  box-shadow: 0px 0px 10px 1px #f35047;
+  transition: 0.5s ease-in-out;
+}
+
+#equal {
+  background-color: #3263a7;
+  border-radius: 10px;
+}
+
+#equal:hover {
+  box-shadow: 0px 0px 10px 1px #3979d2;
+  transition: 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: #8aae79;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
